@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="testNG Suite">
+   <test name="test Scripts">
+      <classes>
+         <class name="com.sg.automation.driver.DriverScript">
+            <methods>
+               <include name="loadClasses"></include>
+               <include name="executeTests"></include>
+            </methods>
+         </class>
+      </classes>
+   </test>
+</suite>
